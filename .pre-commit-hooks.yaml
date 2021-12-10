@@ -5,9 +5,14 @@
   entry: fish --no-execute
   language: system
   types: [fish]
-- id: fish_indent
+
+- id: fish_indent_lint
   name: Fish indent check
   description: Check Fish shell indentation
+  entry: pre-commit-hooks/fish_indent_lint.fish
+  language: script
+  types: [fish]
+
 - id: fish_indent_format
   name: Fish indent format
   description: Format fish syntax
