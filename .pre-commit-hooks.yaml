@@ -16,6 +16,6 @@
 - id: fish_indent_format
   name: Fish indent format
   description: Format fish syntax
-  entry: pre-commit-hooks/fish_indent.fish
+  entry: pre-commit-hooks/fish_indent_format.fish
   language: script
   types: [fish]
