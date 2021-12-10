@@ -16,4 +16,5 @@ jobs:
           SKIP: no-commit-to-branch
       - uses: fish-actions/install-fish@v1.1.0
       - run: pre-commit try-repo . fish_syntax --verbose --all-files
-      - run: pre-commit try-repo . fish_indent --verbose --all-files
+      - run: pre-commit try-repo . fish_indent_lint --verbose --all-files
+      - run: pre-commit try-repo . fish_indent_format --verbose --all-files
