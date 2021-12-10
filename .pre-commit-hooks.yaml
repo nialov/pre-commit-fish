@@ -8,6 +8,9 @@
 - id: fish_indent
   name: Fish indent check
   description: Check Fish shell indentation
+- id: fish_indent_format
+  name: Fish indent format
+  description: Format fish syntax
   entry: pre-commit-hooks/fish_indent.fish
   language: script
   types: [fish]
